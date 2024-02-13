@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeflex/primeflex.css";
+@import "primeicons/primeicons.css";
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(25, 72, 215);
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    min-height: 50px;
+    color: white;
+    box-shadow: 10px 15px 56px 4px rgba(58,83,201,0.58);
+-webkit-box-shadow: 10px 15px 56px 4px rgba(58,83,201,0.58);
+-moz-box-shadow: 10px 15px 56px 4px rgba(58,83,201,0.58);
+}
+.footer{
+    text-align: center;
+    background-color: rgb(25, 72, 215);
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    min-height: 50px;
+    color: white;
+    box-shadow: 10px 15px 56px 4px rgba(58,83,201,0.58);
+-webkit-box-shadow: 10px 15px 56px 4px rgba(58,83,201,0.58);
+-moz-box-shadow: 10px 15px 56px 4px rgba(58,83,201,0.58);
+}
+
+.content{
+    display: block;
+    min-height: calc(100vh - 100px);
+    border: 1px solid cornflowerblue;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+div.cart{
+    float: right;
+    margin-right: 5px;
+}
+.cart img{
+    height: 40px;
+    width: 40px;
+}
