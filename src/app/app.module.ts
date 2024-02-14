@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './componentes/plantillas/header/header.component';
 import { FooterComponent } from './componentes/plantillas/footer/footer.component';
 import { MenubarModule } from 'primeng/menubar';
+import { ProductosModule } from './modulos/productos/productos.module';
 
 
 
@@ -26,7 +27,8 @@ import { MenubarModule } from 'primeng/menubar';
     HttpClientModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MenubarModule
+    MenubarModule,
+    ProductosModule
   ],
   providers: [
     MessageService,

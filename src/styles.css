@@ -11,7 +11,7 @@ html, body{
 
 .header{
     text-align: center;
-    background-color: rgb(25, 72, 215);
+    background-color: rgb(14, 14, 67);
     border: 1px solid;
     border-radius: 10px;
     margin-left: 2%;
@@ -24,7 +24,7 @@ html, body{
 }
 .footer{
     text-align: center;
-    background-color: rgb(25, 72, 215);
+    background-color: rgb(14, 14, 67);
     border: 1px solid;
     border-radius: 10px;
     margin-left: 2%;
@@ -39,16 +39,33 @@ html, body{
 .content{
     display: block;
     min-height: calc(100vh - 100px);
-    border: 1px solid cornflowerblue;
-    margin-left: 2%;
-    margin-right: 2%;
-    border-radius: 10px;
+    border: 1px solid rgb(14, 14, 67);
+    margin: 1%;
+    border-radius: 10px;    
 }
 div.cart{
     float: right;
     margin-right: 5px;
 }
 .cart img{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }
+
+.content {
+    display: block;
+    border: 1px solid;
+    min-height: calc(100vh - 80px);
+    margin-left: 10%;
+    text-align: center; 
+    width: 80%;
+    background-color: rgb(14, 14, 67);
+  
+    .producto {
+      display: inline-block;
+      margin-left: 5px;
+      margin-top: 5px;
+      width: 300px;
+    } 
+  }
+  
