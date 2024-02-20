@@ -1,9 +1,10 @@
 {
     "productos": [
-      {"id":"1", "nombre":"WebCam", "descripcion":"WebCam descripcion", "precio":400, "imagen":""},
-      {"id":"2", "nombre":"Teclado", "descripcion":"Teclado descripcion", "precio":420, "imagen":""},
-      {"id":"3", "nombre":"Ratón", "descripcion":"Ratón descripcion", "precio":600, "imagen":""},
-      {"id":"4", "nombre":"Lámpara", "descripcion":"Ratón descripcion", "precio":1000, "imagen":""}
+      {"id":"1", "nombre":"MSI Geforce RTX 4070 SUPER VENTUS OC", "modelo":"912-V513-641","marca":"NVIDIA" , "descripcion":"Tarjeta Video MSI Geforce RTX 4070 SUPER VENTUS OC / 12GB GDDR6X /3 AÑOS DE GARANTIA NACIONAL", "precio":4999, "precioA":5499,"imagen":"https://ddtech.mx/assets/uploads/bf79e0c962fedfc272a42b0e4a02bb1b.png" },
+      {"id":"2", "nombre":"Laptop XPG Xenia 15G 15.6 Full HD","modelo":"XENIAG15I7G13H4060LX-BKCES","marca":"XPG" ,  "descripcion":"Intel Core i7-13700H 2.40GHz / 16GB / 1TB SSD / RTX 4060", "precio":24999,"precioA":27999, "imagen":"https://ddtech.mx/assets/uploads/564e3840763cc02de67f1f066967a257.jpg"},
+      {"id":"3", "nombre":"NZXT H9 Flow / ATX Mid Tower", "modelo":"CM-H91FW-01","marca":"NZXT" , "descripcion":"Incluye 4 Ventiladores sin RGB / Capacidad de hasta Diez Ventiladores / Soporte Radiadores de 360 mm", "precio":3179,"precioA":5999, "imagen":"https://ddtech.mx/assets/uploads/b8fe4100bc8faeb1fefc7c55237e8dcc.jpg"},
+      {"id":"4", "nombre":"Monitor Profesional 27 NZXT CANVAS 27Q","modelo":"MN-27QSB-B1-B", "marca":"NZXT" ,"descripcion":"HDMI x2 / DP / QHD /HDR 10/165Hz/1ms", "precio":5899, "precioA":7500,"imagen":"https://ddtech.mx/assets/uploads/dc0bae5446797e9cf26be66763aa9e0c.jpg"}
+      
     ]
   }
   

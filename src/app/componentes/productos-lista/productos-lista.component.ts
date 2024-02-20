@@ -17,7 +17,9 @@ export class ProductosListaComponent {
   ngOnInit(): void {
     //Invocar al servicio para obtener los productos
     this.servProductos.getProductos().subscribe(
-      response => this.productos = response
+      response => {
+        this.productos = response
+      }
     );
   }
 
