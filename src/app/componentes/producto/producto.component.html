@@ -21,7 +21,7 @@
         {{producto?.precioA | currency}}
     </s>
     <ng-template pTemplate="footer">
-        <p-button label="Agregar al carrito" icon="pi pi-cart-plus"></p-button>
+        <p-button (click)="add()" label="Agregar al carrito" icon="pi pi-cart-plus"></p-button>
     </ng-template>
   </p-card>
   <br>

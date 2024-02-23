@@ -11,14 +11,16 @@ import { HeaderComponent } from './componentes/plantillas/header/header.componen
 import { FooterComponent } from './componentes/plantillas/footer/footer.component';
 import { MenubarModule } from 'primeng/menubar';
 import { ProductosModule } from './modulos/productos/productos.module';
-
+import { ProductosService } from './servicios/productos.service';
+import { CartComponent } from './componentes/cart/cart.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
@@ -31,10 +33,13 @@ import { ProductosModule } from './modulos/productos/productos.module';
     ProductosModule
   ],
   providers: [
-    
     MessageService,
     provideClientHydration()
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private service:ProductosService){
+   localStorage.setItem('cart', JSON.stringify([]))
+ }
+}

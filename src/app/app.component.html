@@ -1,6 +1,7 @@
 <div>
     <div class="header">
-        <app-header></app-header>
+        <app-header (show)="toggleCart()"></app-header>
+        <app-cart *ngIf="showCart"></app-cart>
     </div>
 
     <div class="content">
