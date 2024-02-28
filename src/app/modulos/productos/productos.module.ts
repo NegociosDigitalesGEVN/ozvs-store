@@ -4,6 +4,9 @@ import { ProductosListaComponent } from '../../componentes/productos-lista/produ
 import { ProductoComponent } from '../../componentes/producto/producto.component';
 import { ModprimengModule } from '../../modprimeng.module';
 import { HttpClientModule } from '@angular/common/http';
+import { TagModule } from 'primeng/tag';
+import { RatingModule } from 'primeng/rating';
+import { DataViewModule } from 'primeng/dataview';
 
 
 
@@ -15,7 +18,10 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     CommonModule,
     ModprimengModule,
-    HttpClientModule
+    HttpClientModule,
+    TagModule,
+    RatingModule,
+    DataViewModule,
   ],
   exports:[
     ProductosListaComponent,

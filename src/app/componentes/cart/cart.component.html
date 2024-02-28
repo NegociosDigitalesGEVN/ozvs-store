@@ -1,9 +1,9 @@
 <p>Carrito de compras</p>
 <br>
 <div class="contenido">
-    <div class="item" *ngFor="let item of cart ">
-        <span>Nombre: {{ item.nombre | titlecase }}</span>
-        <span>precio: {{ item.precios | currency }}</span>
-        <span>Cantidad: {{ item.cantidad }}</span>
+    <div class="producto" *ngFor="let producto of cart ">
+        <span>Nombre: {{ producto.nombre | titlecase }}</span>
+        <span>precio: {{ producto.precios | currency }}</span>
+        <span>Cantidad: {{ producto.cantidad }}</span>
     </div>
 </div>

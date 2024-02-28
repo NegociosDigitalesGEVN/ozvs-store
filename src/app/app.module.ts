@@ -13,6 +13,8 @@ import { MenubarModule } from 'primeng/menubar';
 import { ProductosModule } from './modulos/productos/productos.module';
 import { ProductosService } from './servicios/productos.service';
 import { CartComponent } from './componentes/cart/cart.component';
+import { DataViewModule } from 'primeng/dataview';
+import { RatingModule } from 'primeng/rating';
 
 
 @NgModule({
@@ -20,7 +22,7 @@ import { CartComponent } from './componentes/cart/cart.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    CartComponent
+    CartComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,9 @@ import { CartComponent } from './componentes/cart/cart.component';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     MenubarModule,
-    ProductosModule
+    ProductosModule,
+    DataViewModule,
+    RatingModule
   ],
   providers: [
     MessageService,

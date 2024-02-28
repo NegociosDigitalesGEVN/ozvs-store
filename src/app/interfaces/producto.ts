@@ -7,4 +7,6 @@ export interface Producto {
     precio: number;
     precioA:number;
     imagen: string;	
+    rating?: number;
+    stock: any;
 }

@@ -1,28 +1,2 @@
-<br>
 
-<p-card header="{{producto?.nombre}}" >
-    <ng-template pTemplate="header">
-       
-        <img [style]="{width:'200px'}" src="{{producto?.imagen}}" />
-    </ng-template>
-    <p>
-       Modelo: {{producto?.modelo}}
-    </p>
-    <p>
-        Marca: {{producto?.marca}}
-    </p>
-    <p>
-        {{producto?.descripcion}}
-    </p>
-    <p>
-        {{producto?.precio | currency}}
-    </p>
-    <s>
-        {{producto?.precioA | currency}}
-    </s>
-    <ng-template pTemplate="footer">
-        <p-button (click)="add()" label="Agregar al carrito" icon="pi pi-cart-plus"></p-button>
-    </ng-template>
-  </p-card>
-  <br>
   
