@@ -15,6 +15,8 @@ import { ProductosService } from './servicios/productos.service';
 import { CartComponent } from './componentes/cart/cart.component';
 import { DataViewModule } from 'primeng/dataview';
 import { RatingModule } from 'primeng/rating';
+import { DialogService } from 'primeng/dynamicdialog';
+
 
 
 @NgModule({
@@ -34,11 +36,13 @@ import { RatingModule } from 'primeng/rating';
     MenubarModule,
     ProductosModule,
     DataViewModule,
-    RatingModule
+    RatingModule,
+    
   ],
   providers: [
     MessageService,
-    provideClientHydration()
+    provideClientHydration(),
+    DialogService
   ],
   bootstrap: [AppComponent]
 })

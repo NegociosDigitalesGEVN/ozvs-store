@@ -7,7 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { TagModule } from 'primeng/tag';
 import { RatingModule } from 'primeng/rating';
 import { DataViewModule } from 'primeng/dataview';
-
+import { TableModule } from 'primeng/table';
 
 
 @NgModule({
@@ -22,6 +22,10 @@ import { DataViewModule } from 'primeng/dataview';
     TagModule,
     RatingModule,
     DataViewModule,
+    TableModule
+   
+
+   
   ],
   exports:[
     ProductosListaComponent,
